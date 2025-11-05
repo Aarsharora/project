@@ -1316,11 +1316,11 @@ ul {
     background-size: cover;
     background-position: center;
     transform: scale(1);
-    opacity: .15;
+    opacity: 1;
     /* background-color: var(--mibooz-black); */
-    background-blend-mode: luminosity;
-    transition: transform 7000ms ease, opacity 1500ms ease-in;
-    z-index: 1;
+    /* background-blend-mode: luminosity; */
+    transition: transform 7000ms ease, opacity 5500ms ease-in;
+    z-index: -1;
 }
 
 .main-slider .swiper-slide-active .image-layer {
